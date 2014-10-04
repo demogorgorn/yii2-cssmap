@@ -102,3 +102,9 @@
 .m650 .c1 a{left:343px;top:197px} .m650 .c2 a{left:441px;top:111px}.m650 .c2 a.tooltip-right .tooltip-arrow{right:209px} .m650 .c3 a{left:528px;top:256px}.m650 .c3 a.tooltip-right .tooltip-arrow{right:122px} .m650 .c4 a{left:333px;top:128px} .m650 .c5 a{left:143px;top:116px}.m650 .c5 a.tooltip-left .tooltip-arrow{left:143px} .m650 .c6 a{left:210px;top:234px}.m650 .c6 a.tooltip-left .tooltip-arrow{left:210px}
 /* --------------------------------------------------------
 end of the maps */
+
+.css-map span {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
