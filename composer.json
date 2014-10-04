@@ -1,0 +1,23 @@
+{
+	"name": "demogorgorn/yii2-cssmap",
+	"description": "Yii2 widget for creating nice looking css map",
+	"keywords": ["map", "fade", "yii", "extension", "widget"],
+	"homepage": "https://github.com/demogorgorn/yii2-cssmap",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Oleg Martemjanov",
+			"email": "demogorgorn@gmail.com",
+			"homepage" : "http://foreign.by"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"demogorgorn\\cssmap\\": ""
+		}
+	}
+}

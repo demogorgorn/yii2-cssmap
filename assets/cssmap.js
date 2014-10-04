@@ -1,0 +1,1 @@
+$('#map-continents').cssMap({size:650,loadingText:'Отображение...',});
