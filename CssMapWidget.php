@@ -1,8 +1,10 @@
 <?php
 
-namespace demogorgorn\uikit\cssmap;
+namespace demogorgorn\cssmap;
 
+use demogorgorn\cssmap\CssMapWidgetAssets;
 use Yii;
+use yii\base\InvalidParamException;
 use yii\base\Widget;
 use yii\helpers\Html;
 use yii\web\View;
@@ -47,7 +49,7 @@ class CssMapWidget extends Widget
         foreach($this->items as $item) 
 		{
 			if (!isset($item['title']))
-				throw new InvalidConfigException("Option 'title' is required!");
+				throw new InvalidParamException("Option 'title' is required!");
 
 			$url = isset($item['url']) ? Url::to($item['url']) : '#';
 

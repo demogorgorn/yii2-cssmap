@@ -4,7 +4,7 @@
  *
  * @author Oleg Martemjanov
  */
-namespace demogorgorn\uikit\cssmap;
+namespace demogorgorn\cssmap;
 
 use yii\web\AssetBundle;
 use Yii;
